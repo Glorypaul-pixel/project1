@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background: linear-gradient(to right,rgb(206, 15, 206),#f57);
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    
+    
+
+}
+
+.formbox {
+    width: 380px;
+    height: 400px;
+    background: white;
+    position: relative;
+    padding: 10px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: 80px;
+    
+
+}
+
+h2 {
+    background: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    
+
+}
+
+.button-box {
+    width: 260px;
+    margin: 25px auto;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 1px #000;
+    
+}
+
+.toggle-btn{
+    padding: 10px 40px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    position: relative;
+    border: 0;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to right,rgb(189, 10, 189),#f57);
+    border-radius: 5px;
+    transition: .5s;
+ 
+    
+}
+.input-group {
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    background: white;
+    
+}
+
+p{
+    background: white;
+    font-size: medium;
+}
+p a {
+    color: #f57;
+}
+
+h4 a{
+    background: #fff;
+    text-decoration: none;
+    color: #ff105f;
+
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 10px;
+    margin-right: 50px;
+    background: white;
+    border-radius: 5px;
+    color: #778;
+    border: 1px solid grey;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,rgb(165, 16, 165),#ff105f);
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+    color: #fff;
+    height: 40px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+p {
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    
+}
+
+span {
+    background: #fff;
+    color: #777;
+    font-size: 12px;
+    bottom: 80px;
+    
+}
+
+#login {
+    left: 50px;
+    
+    
+}
+#Register {
+    left: 450px;
+}
